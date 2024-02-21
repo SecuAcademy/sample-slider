@@ -18,3 +18,6 @@ from streamlit.logger import get_logger
 # slider
 age = st.slider('나이', 0, 100, 40)
 st.write("선택한 나이는", age, "살입니다.")
+
+if st.button('안녕하세요 버튼'):
+    st.write('버튼이 클릭되었습니다.')
